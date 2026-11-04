@@ -1,24 +1,24 @@
 class Kofre < Formula
   desc "Secretos de proyecto cifrados en tu máquina"
   homepage "https://github.com/kofrehq/kofre-releases"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kofrehq/kofre-releases/releases/download/v0.6.0/kofre-macos-arm64"
-      sha256 "20b41c9c1c518002ec69dbf787b6e2eeae5f07205f1849fde7b8024fcd4c68aa"
+      url "https://github.com/kofrehq/kofre-releases/releases/download/v0.7.0/kofre-macos-arm64"
+      sha256 "5e4fc7fa4b15dadfd569919df32012e2fe305c5ccc1d788a77d2f0c42b77cbd6"
     end
     on_intel do
-      url "https://github.com/kofrehq/kofre-releases/releases/download/v0.6.0/kofre-macos-x64"
-      sha256 "1071d52b6010e77421e83b0f8ed13a65edfab8a75f7f5f788ae15d89353de1bd"
+      url "https://github.com/kofrehq/kofre-releases/releases/download/v0.7.0/kofre-macos-x64"
+      sha256 "e25be4099b9a00c947eb28e020e2514dbac4bf12169e3ee28c79b508671ea6e3"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kofrehq/kofre-releases/releases/download/v0.6.0/kofre-linux-x64"
-      sha256 "88fdcd8b0e384a6b028dbaba43b8a4604068250977720f997ddd968918b4e52d"
+      url "https://github.com/kofrehq/kofre-releases/releases/download/v0.7.0/kofre-linux-x64"
+      sha256 "d4e0126fc2b37d1f8b75ebf2406bca1703f18b2d320f8023eda82f3fecfd368d"
     end
   end
 
